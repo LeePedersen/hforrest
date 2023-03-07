@@ -7,7 +7,7 @@ import Sculpture from './components/sculpture';
 import About from './components/about';
 import Video from './components/video';
 import Contact from './components/contact';
-// import ViewImage from './components/viewImage';
+import ViewImage from './components/viewImage';
 import Error404 from './components/Error404';
 import {Routes, Route } from 'react-router-dom';
 
@@ -45,6 +45,7 @@ class App extends React.Component {
             <Route path='/about' element={<About/>} />
             <Route path='/video' element={<Video/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='/viewImage' element={<ViewImage/>} />
             <Route element={Error404} />
           </Routes>
         <Footer />
